@@ -151,3 +151,28 @@ header{
     background-color: black;
     color: white;
 }
+
+/**** girl sleeping section start here *****/
+.lady-sleeping-section{
+        background: white;
+        padding: 2rem;
+}
+/* .side-by-side{
+    display: flex;
+    justify-content: center;
+} */
+ .image-and-text-lady{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    height: 350px;
+    padding: 0 3rem;
+    
+}
+.lady-sleeping-text{
+    padding: 7rem 2rem 7rem 0;
+    text-align: justify;
+    
+    font-size: 0.8rem;
+}
