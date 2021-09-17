@@ -30,6 +30,7 @@ body{
 } */
 .custom-font{
     font-family: serif;
+    font-style: italic;
 }
 header{
     width: 100%;
@@ -258,4 +259,70 @@ header{
     border-radius: 3rem;
     padding: 1rem 3rem;
     /* vertical-align: middle; */
+}
+
+/***** subscribe section start here ****/
+
+.subscribe-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.subscribe-img-container{
+    width: 50%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url(../images/subscribe.jpeg);
+}
+.subscribe-text{
+    width: 50%;
+    padding: 7rem 3rem;
+}   
+.subscribe-heading{
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+hr{
+    background-color: #e9b1b3;
+    height: .5rem;
+    border: unset;
+}
+.subscribe-form-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+.text-input-field{
+    width: 50%;
+    padding: 0.6rem 0.6rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.7rem;
+}
+.subcribe-btn{
+    background-color: black;
+    color: white;
+    font-weight: 300;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    border: unset;
+}
+.sample-text{
+    font-size: 0.7rem;
+    text-align-last: center;
+    padding-bottom: 1.7rem;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.twitter-icon{
+    padding: 0 1rem;
 }
